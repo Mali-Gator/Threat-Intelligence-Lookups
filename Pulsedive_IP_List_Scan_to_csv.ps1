@@ -1,3 +1,5 @@
+## This script uses the API key provided by the user to lookup IP addresses in "input_ip_addresses.csv" against the Pulsedive database
+
 # Get API key and input CSV from user
 $apiKey = "[INSERT API KEY HERE]"
 $inputCsv = "input_ip_addresses.csv"

@@ -1,3 +1,5 @@
+## This script uses the API key provided by the user to lookup IP addresses in "input_ip_addresses.csv" against the VirusTotal database
+
 # Import the IP addresses from the CSV file
 $ipAddresses = Import-Csv -Path "input_ip_addresses.csv" | ForEach-Object -Process { $_.ip }
 

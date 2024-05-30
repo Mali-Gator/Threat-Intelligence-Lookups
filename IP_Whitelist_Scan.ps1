@@ -1,3 +1,5 @@
+## This script is used to run all of the powershell scripts in a directory (except itself to avoid looping). If all of the Threat-Intelligence-Lookup scripts are in the same directory, it will run them and output all results to the same directory.
+
 # Define the path to the current directory
 $scriptFolderPath = Get-Location
 

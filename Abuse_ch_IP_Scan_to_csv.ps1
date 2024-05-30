@@ -1,4 +1,4 @@
-## This script uses the API key provided by the user to lookup IP addresses in "input_ip_addresses.csv" against the AbuseIPDB database
+## This script looks up IP addresses in "input_ip_addresses.csv" against the AbuseCh FeodoTracker and ThreatFox database
 
 # Read a list of IP addresses from a CSV file
 $ipAddresses = import-csv -Path "input_ip_addresses.csv"

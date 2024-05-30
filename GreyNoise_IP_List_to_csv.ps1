@@ -1,4 +1,4 @@
-## This script uses the API key provided by the user to lookup IP addresses in "input_ip_addresses.csv" against the AbuseIPDB database
+## This script uses the API key provided by the user to lookup IP addresses in "input_ip_addresses.csv" against the GreyNoise database
 
 # Define the API key and base URL
 $apiKey = "[INSERT API KEY HERE]"

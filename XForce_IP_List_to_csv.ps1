@@ -1,3 +1,5 @@
+## This script uses the API key and API password provided by the user to lookup IP addresses in "input_ip_addresses.csv" against the IBM Xforce database
+
 # Define the API key and base URL for IBM X-Force
 $apiKey = "[INSERT API KEY HERE]"
 $apiPassword = "[INSERT API PASSWORD HERE]"
